@@ -1,0 +1,187 @@
+
+
+#search {
+    position: absolute;
+    top: 8px;
+    right: 100px;
+}
+
+#search input {
+    margin: 0px;
+    padding: 2px;
+}
+
+#search #global_advancedsearch {
+	position: absolute;
+	bottom: -16px;
+	right: 20%;
+	text-decoration: none;
+	font-style: italic;
+	font-size: 80%;
+}
+
+#search #global_advancedsearch:hover {
+	text-decoration: underline;
+}
+
+#search #globalSearchKeyword {
+	background: #fff url("images/zoom.png") no-repeat center right;
+	padding-right: 20px;
+}
+
+
+
+#jquery-live-search {
+    background-color: #fff;
+    width: 340px;
+    overflow-y: auto;
+	overflow-x: hidden;
+	position: absolute;
+    z-index: 1000;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	border-left: 1px solid #ccc;
+}
+
+#jquery-live-search table, #jquery-live-search table tr, #jquery-live-search table tr td {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#jquery-live-search table tr td {
+	height: 20px;
+}
+
+#jquery-live-search table tr.searchTypeRow td {
+	padding: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+#jquery-live-search table tr.searchTypeRow td.searchTitleCell {
+	vertical-align: top;
+	padding: 6px 0 0 30px;
+	border-right: 1px solid #ccc;
+	background: #eee no-repeat 5px 5px;
+	height: 100%;
+	width: 35%;
+	min-width: 80px;
+}
+
+#jquery-live-search table tr.searchTypeRow td table.searchListTable tr td {
+	text-indent: 10px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+#jquery-live-search table tr.searchTypeRow td table.searchListTable tr:last-child td:last-child {
+	border: none;
+}
+
+#jquery-live-search a {
+	display: block;
+	text-decoration: none;
+}
+
+#jquery-live-search table tr.searchTypeRow td table.searchListTable tr td a {
+	padding: 6px;
+}
+
+#jquery-live-search table tr.searchTypeRow td table.searchListTable tr td a:hover {
+	background: #eee no-repeat 7px 5px;
+}
+
+#jquery-live-search table tr.searchTypeRow td.searchTitleCell:hover {
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+
+
+#jquery-live-search table tr.searchTypeRow td.searchTitleCell span.show {
+	display: none;
+}
+
+#jquery-live-search table tr.searchTypeRow td.searchTitleCell:hover span.show {
+	display: inline;
+	text-decoration: underline;
+}
+
+#jquery-live-search table tr.searchTypeRow td.searchTitleCell:hover span.noshow {
+	display: none;
+}
+
+
+
+#jquery-live-search table tbody tr.searchTypeRow td#searchAssetImg {
+	background-image: Url("images/assets.png");
+}
+
+#jquery-live-search table tbody tr.searchTypeRow td#searchContactImg {
+	background-image: Url("images/contacts.png");
+}
+
+#jquery-live-search table tbody tr.searchTypeRow td#searchMediaImg {
+	background-image: Url("images/types/image.png");
+}
+
+#jquery-live-search table tbody tr.searchTypeRow td#searchSharedImg {
+	background-image: Url("images/group.png");
+}
+
+
+
+#jquery-live-search table tr.searchTypeRow td table.searchListTable tr td a {
+	text-indent: 28px;
+	background: transparent no-repeat 7px 5px;
+}
+
+#jquery-live-search table tr.searchTypeRow td table.searchListTable tr td a.noicon {
+	background: none;
+	text-indent: 6px;
+}
+
+#jquery-live-search table tr.searchTypeRow td table.searchListTable tr td a.noicon:hover {
+	background: #eee;
+}
+
+
+
+#assetlist_advancedsearch_link {
+	float: right;
+	padding: 5px;
+	font-style: italic;
+}
+
+#assetlist_advancedsearch {
+	float: left;
+	margin-bottom: 30px;
+}
+
+#assetlist_advancedsearch ul {
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-right: 20px;
+}
+
+#assetlist_advancedsearch ul li {
+	margin-bottom: 5px;
+}
+
+#assetlist_advancedsearch ul li label {
+	display: inline-block;
+	width: 90px;	
+}
+
+#assetlist_advancedsearch input[type="button"] {
+	float: right;
+	color: #000;
+	margin: 10px 0 0 10px;
+}
+
+#assetlist_advancedsearch input[type="button"]:hover {
+	cursor: pointer;
+}

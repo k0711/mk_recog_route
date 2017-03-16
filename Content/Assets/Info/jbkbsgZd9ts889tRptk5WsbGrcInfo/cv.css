@@ -1,0 +1,93 @@
+.cvsection 
+{
+	margin: 10px 0px 10px 0px;
+}
+
+.cvitem .date 
+{
+	float: right;
+}
+
+.cvsectionright {
+	float: right;
+}
+
+.cvassettitle {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.cvassetdescription {
+	margin-bottom: 10px;
+}
+
+.subcvsection {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.cvasset {
+	border: 0px;
+    border-bottom: 1px dotted #aaa;
+    margin: 5px 0;
+}
+
+.cvcollection hr {
+	border: 0px;
+    border-bottom: 1px solid #aaa;
+    margin: 5px 0;
+}
+
+.cvsectionother p {
+	margin: 0px;
+}
+
+.cvcolumn {
+	float: left;
+	width: 45%;
+}
+
+.cvsectionrightcolumn {
+	margin-left: 10px;
+}
+
+.cvsectionleftcolumn {
+	margin-right: 10px;
+}
+
+.clearboth {
+	clear: both;
+}
+
+.cvsectionother {
+	margin-top: 3px;
+}
+
+.cvtableleft {
+	width: 100px;
+}
+
+.cvtable {
+	border: 0px;
+}
+
+.callingcard table tr td  {
+	border: 0px;
+}
+
+.cv table tr td {
+	border: 0px;
+	padding-left: 0px;
+}
+
+.cvcallingcardright {
+	float: right;
+}
+
+.subsubcvsection {
+	margin-top: 15px;
+}
+
+.page table {
+	background-color: inherit;
+}

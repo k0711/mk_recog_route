@@ -1,0 +1,459 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+body {
+    font-size: 0.75em;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    background: no-repeat fixed right bottom #EBEBE8;
+        background-size: cover;
+
+        background-image: url(jbkbsgZd9ts88Z8spc4ngkm43h1.png);
+    
+    color: #333;
+}
+
+
+
+a {
+    
+}
+
+.page p {
+    margin-bottom: 0px;
+}
+
+hr {
+    background-color: #000000;
+    border-color: #000000;
+    color: #000000;
+}
+
+fieldset {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.inset {
+    background-color: #FFFFFF;
+}
+
+.themegradient, .mainmenu {
+    background: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.08) 0%, rgba(0, 0, 0, 0.08) 100%) repeat scroll 0 0 transparent;
+    height: 100%;
+}
+
+.padcontainer {
+    border: 1px solid #393E4D;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+.padheader {
+    background: none repeat scroll 0 0 #4A4E57;
+    border-bottom: 1px solid #393E4D;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+    height: 30px;
+}
+
+.padheader h2 {
+    color: #FFFFFF;
+}
+
+.padfooter {
+    background: none repeat scroll 0 0 #4A4E57;
+    border-top: 1px solid #393E4D;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+    height: 20px;
+}
+
+.mainheader {
+    background-color: #4A4E57;
+    border: 1px solid #393E4D;
+    color: #FFFFFF;
+    height: 50px;
+}
+
+#menucontainer {
+    background: none repeat scroll 0 0 #F02828;
+    position: relative;
+}
+
+.mainmenu {
+    border-top: 1px solid #393E4D;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25) inset;
+}
+.mainmenu li {
+}
+.mainmenu li a {
+    color: #FFFFFF;
+    padding-top: 10px;
+    text-align: center;
+}
+ul#menu li {
+    border-right: 1px solid rgba(0, 0, 0, 0.4);
+    float: left;
+    height: 35px;
+    list-style: none outside none;
+    margin: 0;
+    width: 148px;
+}
+.mainsearch {
+}
+.quicklaunch {
+}
+.pebblepadlogo {
+    font-size: 16pt;
+    font-weight: 100;
+    position: absolute;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.notificationbar {
+    background-color: #4A4E57;
+}
+.editform input[type="text"] {
+    width: 30em;
+}
+.editform table textarea {
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    padding: 0;
+}
+input[type="text"], input[type="password"], textarea, .htmleditor, select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 1px 1px 1px 1px;
+    color: #000000;
+    padding: 5px;
+}
+input:focus, textarea:focus, .htmleditor:focus {
+    box-shadow: 0 0 0 1px #282F4D inset;
+}
+input[type="button"], input[type="submit"] {
+    background: none repeat scroll 0 0 #D2D2D2;
+    border: 1px solid #D2D2D2;
+    border-radius: 5px 5px 5px 5px;
+    color: #42464C;
+    font-family: 'Open Sans',Helvetica,Sans-Serif;
+    font-size: 110%;
+    font-weight: normal;
+    height: 25px;
+    padding: 2px 10px;
+}
+#padbuttons a {
+    background: none repeat scroll 0 0 #D2D2D2;
+    border: 1px solid #D2D2D2;
+    border-radius: 3px 3px 3px 3px;
+    color: #42464C;
+    font-family: 'Open Sans',Helvetica,Sans-Serif;
+    font-size: 100%;
+    font-weight: normal;
+    padding: 0 10px;
+    text-decoration: none;
+}
+input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: #42464C;
+    color: #D2D2D2;
+    cursor: pointer;
+}
+#padbuttons a:hover {
+    background-color: #42464C;
+    color: #D2D2D2;
+    cursor: pointer;
+}
+tr.gridrow_alternate {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+table.grid th {
+    background-color: #DBDFC2;
+    color: #000000;
+}
+
+.page table th {
+    background-color: #DBDFC2;
+    border: 1px solid #E8EEF4;
+    color: #000000;
+    padding: 6px 5px;
+    text-align: left;
+}
+.page table {
+    border-collapse: collapse;
+}
+.page table td {
+    border: 1px solid #E8EEF4;
+    padding: 5px 10px;
+}
+.backgroundcolor {
+    background-color: #F02828;
+    color: #FFFFFF;
+}
+.cellborder {
+    border: 1px solid #393E4D;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+}
+.interfacecolorbackground {
+    border: 1px solid #393E4D;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+    color: #FFFFFF;
+}
+.selected {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    font-weight: bold !important;
+}
+.menu-leftcol-title {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.menu-leftcol-item input {
+    color: #000000;
+}
+.sharetabs input {
+    color: #000000;
+}
+.gridrow_selected {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+.backgroundOverlay {
+        
+            background: transparent;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: top left;
+        
+
+        background-image: none;
+    *background: none;
+	*overflow-y: hidden;
+}
+
+.page .padcontainer {
+    border: 0px;
+}
+
+ #header {
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+
+    transform: translate(0, -65%);
+    -moz-transform: translate(0, -65%);
+    -webkit-transform: translate(0, -65%);
+    -o-transform: translate(0, -65%);
+}
+
+#header:hover {
+    transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+.page .padheader {
+    background: none;
+    height: auto;
+    border-radius: 0px;
+    border: 0px;
+    box-shadow: none;
+}
+
+.page .padheaderHeader {
+        
+            background: transparent no-repeat bottom center url(jbkbsgZd9ts88Z8spc4ngkm43h2.jpg);
+            height: 75px; background-position: bottom left;margin-top: 20px;;
+        
+        padding-top: 0px;
+}
+
+.page .padheader .themegradient {
+    padding: 0 20px;
+        background: #fff; padding: 10px 30px 10px 10px; border: 1px solid #e6e6e6; border-bottom: none;
+}
+
+.page .padheaderFooter {
+}
+
+.page .padheader h2 {
+    font-size: 200%;
+        color: #333;
+}
+
+.page .padheader p {
+    font-size: 120%;
+        color: #333;
+}
+
+.page .padheader h2, .page .padheader p {
+        text-align: left;
+}
+
+.page .padcontentHeader {
+}
+
+.page .padfooter {
+        
+            background: transparent no-repeat top center;
+        
+    border-radius: 0px;
+    box-shadow: none;
+    border: 0px;
+}
+
+.page .padfooter .themegradient {
+    display: none;
+}
+
+div#main img {
+    outline: 0;
+}
+
+div#main {
+    border-radius: 0px;
+    box-shadow: none;
+
+    font-size: 10pt;
+
+        font-family: 'Open Sans', sans-serif;
+
+
+
+    
+    padding-bottom: 120px;
+}
+
+.page #main_content {
+    background-color: #ffffff;
+    color: 333;
+    outline: 0;
+
+
+        border: 1px solid #e6e6e6; border-top: none;
+}
+
+.page #main_content a {
+    
+}
+
+.page #asset_view {
+    background: transparent no-repeat top center;
+    
+}
+
+.page ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page .sidebar {
+}
+
+.page .sidebar .sidebarHeader {
+}
+
+.page .sidebar .menu {
+}
+
+.page .sidebar .sidebarFooter {
+}
+
+.page .sidebar .menu li {
+    padding-top: 5px;
+        padding: 5px 0 8px 5px; border-bottom: 1px solid #e6e6e6; color: #007ba5; background: #f9f9f9;
+}
+
+.page .sidebar .menu li.firstItem {
+}
+
+.page .sidebar .menu li.lastItem {
+}
+
+.page .sidebar .menu li.subItem {
+
+}
+
+.page .sidebar .menu li.subSubItem {
+
+}
+
+.page #main_content .sidebar .menu li a {
+    background: transparent;
+    color: #333;
+        color: #007ba5;
+}
+
+
+
+    
+        .page .sidebar .menu li b {
+            color: #007ba5;
+        }
+    
+
+
+
+.page .webfoliomaincontent div {
+    margin-bottom: 20px;
+}
+
+.page .assetdescription {
+    margin-bottom: 30px;
+}
+
+.page #main_content .sidebar .menu li.date-picker {
+    border: none;
+    padding: 0;
+}
+
+.page #main_content .sidebar .menu .mp-table a {
+    color: #333;
+    background: 0;
+    padding: 0;
+    font-size: 8pt;
+}
+
+.page #main_content .sidebar .menu .mp-table a.disabled {
+    color: #bbb;
+}
+
+.page .postfooter {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+}
+
+.page .sidebar .menu li, .page .sidebar .menu li:hover {
+	*display: inline-block;
+}
+
+.page .comment_container {
+background-color: #eaeaea;
+padding-bottom: 5px;
+}
+
+.page .comment_content, .page .comment_quote {
+margin: 5px;
+border: 1px solid #dedede;
+background: #ffffff;
+}
+
+.page .comment_quote {
+padding: 5px;
+border: 1px solid #6dae6d;
+}
+
+.page .comment_container p, .page .comment_container .postfooter {
+    padding: 0px 5px 0px 5px;
+    margin: 0px;
+}
+
+.page .comment_container .postfooter img {
+float: left;
+padding: 5px 5px 5px 0px;
+}
+
+.page .comment_omission {
+background-color: transparent !important;
+}

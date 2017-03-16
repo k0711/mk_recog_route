@@ -1,0 +1,59 @@
+
+
+body {
+    font-size: .75em;
+    font-weight: 400;
+}
+
+.page .padfooter {
+    height: 20px;
+}
+
+.page .mainheader {
+    height: 49px;
+    position: relative;
+}
+
+.page .mainheader a {
+    text-decoration: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.page .mainheader a:link {
+	text-decoration: none;
+}
+
+.page .mainheader a:visited {
+	text-decoration: none;
+}
+
+.page .mainheader a:hover {
+	text-decoration: none;
+}
+
+#menucontainer {
+    position: relative;
+}
+
+.pebblepadlogo {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    font-weight: 100;
+    font-size: 16pt;
+    left: 15px;
+	margin-top: 14px;
+    text-indent: -9999px;
+    background: transparent no-repeat url("images/logo.png");
+}
+
+.page .editform input[type="text"] {
+    width: 30em;
+}
+
+.page .editform table textarea {
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+}

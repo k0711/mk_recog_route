@@ -1,0 +1,18 @@
+div.collection_asset {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+div.collection_asset a {
+	margin-left: 12px;
+}
+
+div.collection_asset p {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+div.collection_asset img {
+	float: left;
+}

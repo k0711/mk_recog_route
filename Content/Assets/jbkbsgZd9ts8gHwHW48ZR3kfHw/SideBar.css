@@ -1,0 +1,76 @@
+.page .sidebar {
+	width: 200px;
+	margin-right: 20px;
+	border: 0;
+	background-color: transparent;
+}
+
+.page .sidebarright {
+	float: right;	
+}
+
+.page .sidebarleft {
+    float: left;	
+}
+
+.page .sectionmaincontent {
+	overflow: hidden;
+}
+
+.page .sidebar ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+.page .sidebar ul li {
+	border: 0;
+}
+
+.page .sidebar ul li a {
+	text-decoration: none;
+}
+
+.page .sidebar ul li a:hover {
+	text-decoration: underline;
+}
+
+.page .menu {
+    background: transparent no-repeat left top;	
+}
+
+.page .menu li {
+    margin: 0px;
+}
+
+.page .menu li a, .page .menu li b {
+    display: block;    
+    background: transparent no-repeat left bottom;
+}
+
+.page .containerwrapper, .page .workbookcontent {
+    overflow: hidden;
+}
+
+.more-options {
+    border-top: 1px dotted black; 
+    padding-top: 10px; 
+    text-align: center; 
+    margin: 10px 0;
+}
+
+
+
+
+.component-score {
+    
+}
+
+#alternative_grade {
+    background-color: #dcdcdc;
+    padding: 8px 0px;
+}
+
+#overall_score {
+    background-color: #e6e6e6;
+    padding: 10px 0px;
+}

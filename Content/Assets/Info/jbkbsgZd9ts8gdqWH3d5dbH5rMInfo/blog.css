@@ -1,0 +1,65 @@
+.page .blogpagecontent, .postmaincontent {
+    overflow: hidden;
+}
+
+.page .activityLogInfo {
+	margin-bottom: 30px;
+}
+
+.page .postfooter {
+    font-size: 0.8em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.page .posttitle {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+
+.page .addnewpost {
+	float: right;
+}
+
+.page #blognav .ui-datepicker-calendar {
+    display: none;
+}
+
+.page .disabled {
+    color: #eee;
+}
+
+.page .readmore {
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+.page .postdescription {
+    margin-bottom: 20px;
+}
+
+
+
+.page .mp-table {
+    text-align: center;
+    background: none;
+    color: #5A748B;
+}
+
+.page .mp-table a {
+    text-decoration: none;
+    color: #5A748B;
+}
+
+.page .mp-table a.disabled {
+    color: #bbb;
+}
+
+.page .mp-year-row {
+    font-weight: bold;
+}
+
+.page .mp-month, .mp-year-row {
+    
+    background-color: white;
+}

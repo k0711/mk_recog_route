@@ -1,0 +1,51 @@
+.page .sectionrightcolumn {
+    float: right;
+}
+
+.page .sectionleftcolumn {
+    float: left;
+}
+
+.page .sectiontextleft {
+    float: right;
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.page .sectionmediaright {
+    float: right;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.page .sectiontextright {
+    float: left;
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.page .sectionmedialeft {
+    float: left;
+    margin: 0;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.page .sectioncentredmedia {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.page .sectioncentredmedia p {
+    margin: auto;
+}
+
+.page .sectionbadge {
+	border: 1px #aaa dashed;
+	padding: 10px;
+}
